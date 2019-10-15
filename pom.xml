@@ -1,0 +1,112 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jj</groupId>
+	<artifactId>jj-utils</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>jj-utils</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+
+		<!-- dependencies -->
+		<version.jaxrs.api>3.0.12.Final</version.jaxrs.api>
+		<version.gson>2.8.2</version.gson>
+		<version.hibernate>5.2.11.Final</version.hibernate>
+		<version.javaee>7.0</version.javaee>
+		<version.commons.io>2.5</version.commons.io>
+		<version.commons-codec>1.10</version.commons-codec>
+		<version.junit>4.12</version.junit>
+		<version.mockito>2.10.0</version.mockito>
+		<version.ehcache.core>2.6.11</version.ehcache.core>
+		<version.commons-email>1.5</version.commons-email>
+		<version.httpclient>4.5.3</version.httpclient>
+
+		<!-- pluginManagement -->
+		<version.compiler.plugin>3.7.0</version.compiler.plugin>
+		<version.wildfly.maven.plugin>1.2.0.Final</version.wildfly.maven.plugin>
+		<version.sonar.maven.plugin>3.3.0.603</version.sonar.maven.plugin>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>jaxrs-api</artifactId>
+			<version>${version.jaxrs.api}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${version.gson}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${version.hibernate}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${version.javaee}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${version.commons.io}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${version.commons-codec}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${version.junit}</version>
+			<type>jar</type>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>${version.commons-email}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>${version.mockito}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache-core</artifactId>
+			<version>${version.ehcache.core}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${version.httpclient}</version>
+		</dependency>
+	</dependencies>
+
+
+
+
+</project>
