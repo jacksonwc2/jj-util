@@ -21,7 +21,7 @@
 		<version.javaee>7.0</version.javaee>
 		<version.commons.io>2.5</version.commons.io>
 		<version.commons-codec>1.10</version.commons-codec>
-		<version.junit>4.12</version.junit>
+		<version.junit>4.13.1</version.junit>
 		<version.mockito>2.10.0</version.mockito>
 		<version.ehcache.core>2.6.11</version.ehcache.core>
 		<version.commons-email>1.5</version.commons-email>
