@@ -19,7 +19,7 @@
 		<version.gson>2.8.2</version.gson>
 		<version.hibernate>5.2.11.Final</version.hibernate>
 		<version.javaee>7.0</version.javaee>
-		<version.commons.io>2.5</version.commons.io>
+		<version.commons.io>2.7</version.commons.io>
 		<version.commons-codec>1.10</version.commons-codec>
 		<version.junit>4.12</version.junit>
 		<version.mockito>2.10.0</version.mockito>
