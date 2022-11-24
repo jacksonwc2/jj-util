@@ -17,7 +17,7 @@
 		<!-- dependencies -->
 		<version.jaxrs.api>3.0.12.Final</version.jaxrs.api>
 		<version.gson>2.8.2</version.gson>
-		<version.hibernate>5.2.11.Final</version.hibernate>
+		<version.hibernate>5.3.20.Final</version.hibernate>
 		<version.javaee>7.0</version.javaee>
 		<version.commons.io>2.5</version.commons.io>
 		<version.commons-codec>1.10</version.commons-codec>
